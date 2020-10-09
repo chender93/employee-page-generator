@@ -1,0 +1,27 @@
+{
+  "name": "employee-page-generator",
+  "version": "1.0.0",
+  "description": "N/A",
+  "main": "Index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "inquirer": "^7.3.3",
+    "jest": "^26.5.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chender93/employee-page-generator.git"
+  },
+  "author": "Curtis Henderson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chender93/employee-page-generator/issues"
+  },
+  "homepage": "https://github.com/chender93/employee-page-generator#readme"
+}
