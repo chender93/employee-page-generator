@@ -28,7 +28,7 @@ function genEmPage(userData) {
             <ul class="list-group list-group-flush">
                 <li class="list-group-item">Employee Id: ${engineer.getId()}</li>
                 <li class="list-group-item"><a href="mailto:${engineer.getEmail()}">Contact ${engineer.getName()} by Email</a></li>
-                <li class="list-group-item">Visit the<a href="${engineer.getGitHub()}"> GitHub </a>of ${engineer.getName()}</li>
+                <li class="list-group-item">Visit the<a href="https://github.com/${engineer.getGitHub()}"> GitHub </a>of ${engineer.getName()}</li>
             </ul>
         </div>
     `
