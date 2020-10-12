@@ -3,7 +3,7 @@ function genEmPage(userData) {
     function createManager(manager) {
         return `
         <div class="card m-3" style="width: 18rem;">
-            <img src="./images/heprofile.png" class="card-img-top" alt="...">
+            <img src="./images/theyprofile.png" class="card-img-top" alt="...">
             <div class="card-body bg-primary">
                 <h5 class="card-title text-light">${manager.getName()}</h5>
                 <p class="card-text text-light"><i class="fas fa-user-tie"></i> Team Manager</p>
@@ -20,7 +20,7 @@ function genEmPage(userData) {
     function createEngineer(engineer) {
         return `
     <div class="card m-3" style="width: 18rem;">
-            <img src="./images/sheprofile.png" class="card-img-top" alt="...">
+            <img src="./images/theyprofile.png" class="card-img-top" alt="...">
             <div class="card-body bg-success">
                 <h5 class="card-title text-light">${engineer.getName()}</h5>
                 <p class="card-text text-light"><i class="fas fa-laptop-code"></i> Engineer</p>
@@ -51,7 +51,6 @@ function genEmPage(userData) {
     }
 
     const employeeList = [];
-    console.log(userData);
     employeeList.push(userData.filter(employee => employee.getRole() === 'Manager').map(manager => createManager(manager)).join(""))
     employeeList.push(userData.filter(employee => employee.getRole() === 'Engineer').map(engineer => createEngineer(engineer)).join(""))
     employeeList.push(userData.filter(employee => employee.getRole() === 'Intern').map(intern => createIntern(intern)).join(""))
