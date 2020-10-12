@@ -8,6 +8,9 @@ This project is designed to create a functional and complete employee page. The 
 
 [![Walkthrough](http://img.youtube.com/vi/nMY0Mi5bSHA/0.jpg)](http://www.youtube.com/watch?v=nMY0Mi5bSHA "Node.js Employee Page Walkthrough")
 
+## NPM Tests Verification
+[![NPM Tests Video](http://img.youtube.com/vi/QFMCCegQvzY/0.jpg)](http://www.youtube.com/watch?v=QFMCCegQvzY "NPM Tests Video")
+
 ### License Info
 This project does not have any licensing information.
 
