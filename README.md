@@ -4,6 +4,10 @@
 ## Description 
 This project is designed to create a functional and complete employee page. The page will include the team leader/manager along with any engineers and interns that are hired. Engineers will have their github information included while interns will have their school informaiton. All employees will hold contact information as well.
 
+## Video Walkthrough
+
+[![Walkthrough](http://img.youtube.com/vi/nMY0Mi5bSHA/0.jpg)](http://www.youtube.com/watch?v=nMY0Mi5bSHA "Node.js Employee Page Walkthrough")
+
 ### License Info
 This project does not have any licensing information.
 
